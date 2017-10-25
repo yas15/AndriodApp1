@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace App2
 {
-    [Activity(Label = "App2", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "First Android App", MainLauncher = true, Icon = "@drawable/Robot_Pic")]
     public class MainActivity : Activity
     {
         int count = 1; 
@@ -20,7 +20,9 @@ namespace App2
             // To get Visual Studio to pickup the 'button1' we need to build the solution first.
             Button button = FindViewById<Button>(Resource.Id.button1);
 
+            // add a delegate to the button click event
             button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+
         }
     }
 }

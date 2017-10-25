@@ -5,6 +5,8 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
+  
+  <!--Add a Button to the Main.axml Designer using the toolbox-->
     <Button
         android:text="Button"
         android:layout_width="match_parent"
