@@ -4,10 +4,14 @@ using Android.OS;
 
 namespace App2
 {
-    [Activity(Label = "First Android App", MainLauncher = true, Icon = "@drawable/Robot_Pic")]
+    // Change the name of the app to "First Android App"
+    // update the App Icon to drawable/Robot_Pic.png
+    [Activity(Label = "The Gundroo App", MainLauncher = true, Icon = "@drawable/Apu")]
+
     public class MainActivity : Activity
     {
         int count = 1; 
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -21,7 +25,7 @@ namespace App2
             Button button = FindViewById<Button>(Resource.Id.button1);
 
             // add a delegate to the button click event
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            button.Click += delegate { button.Text = string.Format("{0} questions!", count++); };
 
         }
     }
