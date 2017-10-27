@@ -4,9 +4,12 @@ using Android.OS;
 
 namespace App2
 {
-    // Change the name of the app to "First Android App"
-    // update the App Icon to drawable/Robot_Pic.png
-    [Activity(Label = "The Gundroo App", MainLauncher = true, Icon = "@drawable/Apu")]
+    // An activity in an Android app represents a single screen with a user interface.
+    // Setting MainLauncher = true, will cause this activity to be created,
+    // when we lauch the application i.e. this will be the first app screen.
+    // Label = "First Android App":  Change the name of the app to "First Android App"
+    // Update the App Icon to drawable/Robot_Pic.png
+    [Activity(Label = "First Android App", MainLauncher = true, Icon = "@drawable/Robot_Pic")]
 
     public class MainActivity : Activity
     {
@@ -25,7 +28,7 @@ namespace App2
             Button button = FindViewById<Button>(Resource.Id.button1);
 
             // add a delegate to the button click event
-            button.Click += delegate { button.Text = string.Format("{0} questions!", count++); };
+            button.Click += delegate { button.Text = string.Format("{0} Button clicked!", count++); };
 
         }
     }
