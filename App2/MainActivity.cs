@@ -6,7 +6,7 @@ namespace App2
 {
     // An activity in an Android app represents a single screen with a user interface.
     // Setting MainLauncher = true, will cause this activity to be created,
-    // when we lauch the application i.e. this will be the first app screen.
+    // when we launch the application i.e. this will be the first app screen.
     // Label = "First Android App":  Change the name of the app to "First Android App"
     // Update the App Icon to drawable/Robot_Pic.png
     [Activity(Label = "First Android App", MainLauncher = true, Icon = "@drawable/Robot_Pic")]
@@ -23,7 +23,7 @@ namespace App2
             SetContentView (Resource.Layout.Main);
 
             // We have added a button using the toolbox to the 
-            // Resources /layput/Main.axml file, this button is called button1
+            // Resources /layout/Main.axml file, this button is called button1
             // To get Visual Studio to pickup the 'button1' we need to build the solution first.
             Button button = FindViewById<Button>(Resource.Id.button1);
 

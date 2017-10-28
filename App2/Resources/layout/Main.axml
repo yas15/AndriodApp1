@@ -5,27 +5,22 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-  
-  <!--Add a TextView box to the Main.axml Designer using the toolbox-->
-  <TextView
-      android:text="Press the button below!"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/textView1"
-      />
-
-  <!-- EditText is the equivalanet of an inputbox,
+<!--Add a TextView box to the Main.axml Designer using the toolbox-->
+    <TextView
+        android:text="Press the button below!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+<!-- EditText is the equivalent of an inputbox,
   Manually typed the xml for EditText  as it was missing from the toolbox-->
-  <EditTexta
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/EditText1"
-      />
-  
-  <!--Add a Button to the Main.axml Designer using the toolbox-->
-  <Button
-      android:text="Press Me!"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/button1" />
+    <EditTexta
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditText1" />
+<!--Add a Button to the Main.axml Designer using the toolbox-->
+    <Button
+        android:text="Press Me!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
 </LinearLayout>
