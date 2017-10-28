@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView1" />
 <!-- EditText is the equivalent of an inputbox,
-  Manually typed the xml for EditText  as it was missing from the toolbox-->
-    <EditTexta
+  Manually typed the xml for EditText as it was missing from the toolbox-->
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/EditText1" />
